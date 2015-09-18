@@ -95,7 +95,7 @@ cookieFile = os.path.join(addonUserDataFolder, siteVersion + ".cookies")
 NODEBUG = True
 
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-userAgent = "Mozilla/5.0 (X11; U; Linux i686; en-EN) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/ 162671"
+userAgent = "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
 opener.addheaders = [('User-agent', userAgent)]
 
 
